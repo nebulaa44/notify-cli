@@ -11,3 +11,6 @@ edition = "2021"
 [dependencies.clap]
 version = "4.0.18"
 features = ["derive"]
+
+[dependencies.notify-rust]
+version = "4.5.10"
