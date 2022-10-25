@@ -13,6 +13,10 @@ pub struct Args
     /// Title of the notification
     #[arg(short = 't', long = "title", value_name = "TITLE", default_value_t = String::new())]
     pub notif_title: String,
+
+    /// Body of the notification
+    #[arg(short = 'b', long = "body", value_name = "BODY", default_value_t = String::new())]
+    pub notif_body: String,
 }
 
 fn main() 

@@ -5,6 +5,7 @@ pub fn notify(args: &crate::Args)
 {
     Notification::new()
         .summary(&args.notif_title)
+        .body(&args.notif_body)
         .show()
         .unwrap();
 }
