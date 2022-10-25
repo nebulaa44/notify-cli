@@ -1,6 +1,6 @@
 [package]
 name = "notify-cli"
-description = "Reserved crate for future use."
+description = "Create desktop notifications from the command line"
 license = "MIT"
 repository = "https://github.com/nebulaa44/notify-cli/"
 version = "0.1.0"
