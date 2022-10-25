@@ -5,7 +5,7 @@ mod notify;
 
 use clap::Parser;
 
-// TODO: Replace with a clap implementation that doesn't derive
+/// A struct that gets the command line arguments via clap.
 #[derive(Debug, Parser)]
 #[command(author, version, about)]
 pub struct Args 
