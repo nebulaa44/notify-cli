@@ -10,7 +10,7 @@ use clap::Parser;
 pub struct Args 
 {
     /// Title of the notification
-    #[arg(short = 't', long = "title", default_value_t = String::new())]
+    #[arg(short = 't', long = "title", value_name = "TITLE", default_value_t = String::new())]
     pub notif_title: String
 }
 
